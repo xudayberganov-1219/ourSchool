@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our school</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div class="loading-screen">
+    <div class="loading"></div>
+  </div>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <nav class="navbar">
+      <div class="logo">School</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About us</li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content">
+      <h1>Welcome to our website</h1>
+      <p>Have a lot of information about our school</p>
+      <a href="#about" class="cta">More</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section about">
+    <div class="container">
+      <h2>About us</h2>
+      <p>Hello everyone. We are happy to visit our website. We created this website with our team. And briefly described our school</p>
+    </div>
+    <div class="ab">
+        <iframe width="100%" display="inline" height="600px" src="./video_2024-11-16_13-13-37.mp4   " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h6>To introduce our school, our school has football, volleyball fields, its own dormitories, a kitchen and a school building. Our school is equipped with modern equipment. Mainly Algebra, Geometry, Physics, English, History of Uzbekistan are taught in depth. All students are given 5 meals.</h6>
+    </div>
+  </section>
+
+  <!-- News Section -->
+  <section id="news" class="section news">
+    <div class="container">
+      <h2>News</h2><br><br>
+      <div class="news-cards">
+        <div class="news-card">
+          <h3>A football field was built</h3>
+         <img src="./n1.jpg" alt="football">
+        </div>
+        <div class="news-card">
+          <h3>We will now learn to create a robot</h3>
+          <img src="./n2.jpg" alt="robot">
+        </div>
+        <div class="news-card">
+          <h3>They became students before their term.</h3>
+          <img src="./n3.jpg" alt="Jahongir">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2>Communication</h2>
+      <p>Fill out the form below to contact us.</p>
+      
+      <form class="contact-form">
+        <div class="input-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+
+        <div class="input-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+        </div>
+
+        <div class="input-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" placeholder="Write a message" required></textarea>
+        </div>
+
+        <button type="submit" class="btn-submit">Sending</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <p>© 2024 School. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
